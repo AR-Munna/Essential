@@ -1,0 +1,20 @@
+sudo gedit /etc/bind/named.conf.options
+
+sudo gedit /etc/bind/named.conf
+
+sudo gedit /etc/bind/named.conf.local
+
+sudo gedit /etc/bind/for.ARMunna.lan
+
+sudo gedit /etc/bind/rev.ARMunna.lan
+
+sudo named-checkzone ARMunna.lan /etc/bind/for.ARMunna.lan
+
+sudo named-checkzone ARMunna.lan /etc/bind/rev.ARMunna.lan
+
+sudo gedit /etc/network/interfaces
+
+dig pri.ARMunna.lan
+
+nslookup ARMunna.lan
+
